@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТУМАР - Доставка еды</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">ТУМАР</div>
+        <button class="cart-btn">Корзина (<span id="cart-count">0</span>)</button>
+    </header>
+
+    <section class="hero">
+        <h1>Вкусная еда с быстрой доставкой</h1>
+        <button class="order-btn">Посмотреть меню</button>
+    </section>
+
+    <section class="menu">
+        <h2>Наше меню</h2>
+        <div class="categories">
+            <button class="category active" data-category="all">Все</button>
+            <button class="category" data-category="hot">Горячие блюда</button>
+            <button class="category" data-category="desserts">Десерты</button>
+            <button class="category" data-category="drinks">Напитки</button>
+        </div>
+        <div class="menu-items" id="menu-items">
+            <!-- Блюда будут добавляться через JS -->
+        </div>
+    </section>
+
+    <section class="contacts">
+        <h2>Контакты</h2>
+        <p>📍 Адрес: ул. Жамбыла 46А, Хромтау</p>
+        <p>📞 Телефон: <a href="tel:+77001234567">+7 700 123 45 67</a></p>
+        <p>📷 Instagram: <a href="#">@tumar_khromtau</a></p>
+    </section>
+
+    <div class="cart-overlay">
+        <div class="cart">
+            <h2>Корзина</h2>
+            <ul id="cart-items"></ul>
+            <p>Итого: <span id="cart-total">0₸</span></p>
+            <button id="checkout-btn">Оформить заказ</button>
+            <button id="close-cart">Закрыть</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

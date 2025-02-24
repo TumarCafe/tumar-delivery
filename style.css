@@ -1,0 +1,99 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1E3A8A;
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #FFD700;
+    color: black;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cart-btn {
+    background: none;
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.hero {
+    padding: 50px 20px;
+}
+
+.order-btn {
+    background: #FFD700;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.menu {
+    padding: 20px;
+    background: white;
+    color: black;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.category {
+    border: none;
+    padding: 10px 15px;
+    background: #FFD700;
+    cursor: pointer;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu-item {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.cart-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+.contacts {
+    padding: 20px;
+    background: #FFD700;
+    color: black;
+}
